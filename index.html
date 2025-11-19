@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Donut Haven</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cinzel:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>🍩 Premium Donut Haven 🍩</header>
+
+<section class="main">
+    <h2>Donut Flavours</h2>
+    <div class="menu-grid">
+        <div class="item" onclick="selectItem('Strawberry Dream Donut')">🍓 Strawberry Dream Donut <span>₹149</span></div>
+        <div class="item" onclick="selectItem('Chocolate Galaxy Donut')">🍫 Chocolate Galaxy Donut <span>₹189</span></div>
+        <div class="item" onclick="selectItem('Blueberry Frost Donut')">🫐 Blueberry Frost Donut <span>₹159</span></div>
+        <div class="item" onclick="selectItem('Donut & Coffee Combo')">☕🍩 Donut + Coffee Combo <span>₹249</span></div>
+    </div>
+    <p class="message" id="msg"></p>
+</section>
+
+<section class="main">
+    <h2>Beverages Menu</h2>
+    <div class="menu-grid">
+        <div class="item" onclick="selectItem('Iced Latte')">🥤 Iced Latte <span>₹169</span></div>
+        <div class="item" onclick="selectItem('Cold Coffee Classic')">❄️ Cold Coffee Classic <span>₹149</span></div>
+        <div class="item" onclick="selectItem('Mocha Delight')">🍫 Mocha Delight <span>₹179</span></div>
+        <div class="item" onclick="selectItem('Caramel Frappé')">🍮 Caramel Frappé <span>₹189</span></div>
+        <div class="item" onclick="selectItem('Hot Café Latte')">🔥 Hot Café Latte <span>₹159</span></div>
+    </div>
+</section>
+
+<div class="reviews">
+    <h3>⭐ Customer Reviews ⭐</h3>
+    <div class="review-card"><div class="stars">★★★★★</div>"Best donuts I've ever tasted — melts in your mouth!" — Aditi</div>
+    <div class="review-card"><div class="stars">★★★★☆</div>"Cold Coffee + Donut Combo is a killer deal!" — Pranay</div>
+    <div class="review-card"><div class="stars">★★★★★</div>"Ambience, taste, packaging — everything premium!" — Meera</div>
+</div>
+
+<div class="section">
+    <h3>🍩 Donut History</h3>
+    <p class="fact" id="historyTxt">Click the button to learn a cool donut fact!</p>
+    <button onclick="showHistory()">Show Donut Fact</button>
+</div>
+
+<footer>
+    © 2025 Premium Donut Haven — Crafted With Love & Happiness 🍩
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
